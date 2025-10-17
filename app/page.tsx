@@ -82,7 +82,7 @@ export default function Home() {
               </div>
               <h3 className="text-white font-semibold mb-2">Low Gas Fees</h3>
               <p className="text-gray-400 text-sm">
-                Powered by X Layer's efficient infrastructure
+                Powered by X Layer&apos;s efficient infrastructure
               </p>
             </div>
 
@@ -164,7 +164,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-6 text-center text-gray-500 text-sm">
-            <p>Built on X Layer - OKX's Layer 2 Solution</p>
+            <p>Built on X Layer - OKX&apos;s Layer 2 Solution</p>
             <p className="mt-1">© 2024 EduQuest X. All rights reserved.</p>
           </div>
         </div>

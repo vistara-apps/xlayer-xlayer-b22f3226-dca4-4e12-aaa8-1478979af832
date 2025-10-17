@@ -30,7 +30,11 @@ npm install
 cp .env.example .env.local
 ```
 
-3. Add your WalletConnect Project ID to `.env.local`
+3. (Optional) Add your WalletConnect Project ID to `.env.local`:
+```
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id_here
+```
+Get your project ID at [WalletConnect Cloud](https://cloud.walletconnect.com)
 
 4. Run development server:
 ```bash
@@ -38,6 +42,24 @@ npm run dev
 ```
 
 5. Open [http://localhost:3000](http://localhost:3000)
+
+## Wallet Connection
+
+The app supports multiple wallet options:
+
+- **OKX Wallet** (Recommended) - Best for X Layer
+- **MetaMask** - Popular browser wallet
+- **Coinbase Wallet** - Coinbase's wallet solution
+- **WalletConnect** - Connect any mobile wallet via QR code
+
+### Installing OKX Wallet
+
+1. Visit [OKX Wallet](https://www.okx.com/web3)
+2. Install the browser extension
+3. Create or import your wallet
+4. Connect to the app and switch to X Layer network
+
+The app will automatically prompt you to switch to X Layer (Chain ID: 196) if you're on a different network.
 
 ## X Layer Configuration
 
